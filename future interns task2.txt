@@ -1,0 +1,32 @@
+🚀 Future Interns Task 2: Mini E-Commerce Storefront
+
+Proud to share my submission for Task 2 — CartNova, a responsive e-commerce platform built with HTML, CSS, and JavaScript.
+CartNova includes:
+✔ Product listings with real images and hover effects
+✔ Live search filtering
+✔ Add to Cart with item count
+✔ Modal popup for product details
+✔ Custom branding and logo design
+This project reflects my passion for hands-on learning, creative UI design, and building practical web experiences.
+I’d love to hear your thoughts and suggestions!
+🔗 GitHub repo: [your link here]
+🔗 Live demo: [your link here]
+#FutureInterns #FrontendDevelopment #JavaScript #WebDesign #CartNova #PortfolioProject #UIUX
+
+Would you like me to also draft a shorter, more casual version that highlights your creative side (like “CartNova is my playground for experimenting with UI ideas”)?
+
+Proud to share my submission for Task 2 — CartNova, a responsive e-commerce platform built with HTML, CSS, and JavaScript.
+CartNova includes:
+
+✔ Product listings with real images and hover effects
+✔ Live search filtering
+✔ Add to Cart with item count
+✔ Modal popup for product details
+✔ Custom branding and logo design
+
+This project reflects my passion for hands-on learning, creative UI design, and building practical web experiences.
+I’d love to hear your thoughts and suggestions!
+
+🔗 GitHub repo: [AbhishekSalunkhe241/FUTURE_FS_02]
+
+#FutureInterns #FrontendDevelopment #JavaScript 

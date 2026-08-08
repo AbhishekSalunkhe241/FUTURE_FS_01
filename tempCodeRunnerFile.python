@@ -1,0 +1,20 @@
+import qrcode
+
+# Ask user for URL
+url = input("Enter URL: ").strip()
+
+# Set a proper file path (e.g., PNG file)
+file_path = "qrcode.png"
+
+# Create QR code
+qr = qrcode.QRCode()
+qr.add_data(url)
+qr.make(fit=True)
+
+# Generate image
+img = qr.make_image(fill_color="black", back_color="white")
+
+# Save image to file
+img.save(file_path)
+
+print("QR Code was generated and saved as", file_path)

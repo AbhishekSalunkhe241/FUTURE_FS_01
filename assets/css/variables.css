@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Design System Variables & Design Tokens
+   Abhishek Salunkhe - Software Developer Portfolio
+   ========================================================================== */
+
+:root {
+  /* Color Palette - Premium Deep Navy & Electric Blue Aesthetic */
+  --bg-dark: #0B1026;
+  --bg-darker: #060919;
+  --bg-card: rgba(17, 26, 58, 0.7);
+  --bg-card-hover: rgba(23, 37, 84, 0.85);
+  --bg-glass: rgba(11, 16, 38, 0.75);
+  --bg-glass-card: rgba(23, 37, 84, 0.45);
+  --bg-terminal: #070C1E;
+
+  /* Brand Accents */
+  --primary-accent: #2563EB; /* Electric Royal Blue */
+  --primary-glow: rgba(37, 99, 235, 0.35);
+  --primary-accent-hover: #1D4ED8;
+
+  --cyan-glow: #00C6FF; /* Electric Cyan */
+  --cyan-glow-subtle: rgba(0, 198, 255, 0.25);
+
+  --purple-glow: #7C3AED; /* Subtle Purple Accent */
+  --purple-glow-subtle: rgba(124, 58, 237, 0.25);
+
+  --secondary-accent: #10B981; /* Emerald Cyber Green for Status */
+  --secondary-glow: rgba(16, 185, 129, 0.3);
+
+  /* Neutral Text & Borders */
+  --text-primary: #F8FAFC;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-dark: #64748B;
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(0, 198, 255, 0.25);
+  --border-glow: rgba(37, 99, 235, 0.5);
+
+  /* Typography */
+  --font-heading: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'Fira Code', 'Consolas', monospace;
+
+  /* Transitions & Animation Timings */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  /* Elevation Shadows & Glows */
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 10px 20px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 20px 30px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 25px rgba(37, 99, 235, 0.3);
+  --shadow-cyan-glow: 0 0 25px rgba(0, 198, 255, 0.3);
+
+  /* Spacing Scale & Radius */
+  --container-max-width: 1240px;
+  --nav-height: 80px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Glassmorphism Blur Filter */
+  --glass-blur: blur(16px);
+  --glass-blur-sm: blur(8px);
+}
