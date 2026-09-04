@@ -10,6 +10,23 @@ export function initNavigation() {
   const navLinks = document.querySelectorAll('.nav-link');
   const sections = document.querySelectorAll('section[id]');
   const backToTopBtn = document.querySelector('.back-to-top');
+  const navBackdrop = document.getElementById('navBackdrop');
+
+  const closeMobileMenu = () => {
+    navLinksContainer?.classList.remove('active');
+    navBackdrop?.classList.remove('active');
+    document.body.style.overflow = '';
+    const icon = mobileToggle?.querySelector('i');
+    if (icon) icon.className = 'fas fa-bars';
+  };
+
+  const openMobileMenu = () => {
+    navLinksContainer?.classList.add('active');
+    navBackdrop?.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    const icon = mobileToggle?.querySelector('i');
+    if (icon) icon.className = 'fas fa-times';
+  };
 
   // Sticky Header state on scroll
   window.addEventListener('scroll', () => {
@@ -50,24 +67,19 @@ export function initNavigation() {
 
   // Mobile Menu Toggle
   mobileToggle?.addEventListener('click', () => {
-    navLinksContainer?.classList.toggle('active');
-    const icon = mobileToggle.querySelector('i');
-    if (icon) {
-      if (navLinksContainer?.classList.contains('active')) {
-        icon.className = 'fas fa-times';
-      } else {
-        icon.className = 'fas fa-bars';
-      }
+    if (navLinksContainer?.classList.contains('active')) {
+      closeMobileMenu();
+    } else {
+      openMobileMenu();
     }
   });
 
+  // Close Mobile Menu on backdrop click
+  navBackdrop?.addEventListener('click', closeMobileMenu);
+
   // Close Mobile Menu when link clicked
   navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      navLinksContainer?.classList.remove('active');
-      const icon = mobileToggle?.querySelector('i');
-      if (icon) icon.className = 'fas fa-bars';
-    });
+    link.addEventListener('click', closeMobileMenu);
   });
 
   // Smooth Back to Top Scroll
