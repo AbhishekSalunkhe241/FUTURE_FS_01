@@ -48,7 +48,7 @@ export function initProjectsAndSkills() {
         'Restful backend API routes built with Node.js and Express.js'
       ],
       github: 'https://github.com/AbhishekSalunkhe241/lost-and-found-system',
-      demo: 'https://lost-and-found-system-ochre-nu.vercel.app/'
+      demo: 'https://lost-and-found-abhisheksalunkhe241.vercel.app/'
     },
     cartnova: {
       title: 'CartNova (Future FS-02)',
@@ -64,7 +64,7 @@ export function initProjectsAndSkills() {
         'Custom branding and logo design with responsive layout'
       ],
       github: 'https://github.com/AbhishekSalunkhe241/FUTURE_FS_02',
-      demo: 'https://future-fs-02-two-chi.vercel.app/'
+      demo: 'https://cartnova-abhisheksalunkhe241.vercel.app/'
     },
     netflix: {
       title: 'Netflix Clone',
@@ -79,7 +79,7 @@ export function initProjectsAndSkills() {
         'Fluid layout optimized across mobile, tablet, and desktop viewports'
       ],
       github: 'https://github.com/AbhishekSalunkhe241',
-      demo: 'https://netflix-clone-zeta-cyan.vercel.app/'
+      demo: 'https://netflix-clone-abhisheksalunkhe241.vercel.app/'
     }
   };
 
